@@ -144,7 +144,8 @@
         <div class="container">
             <div class="profile-container">
                 <!-- Replace with your actual photo -->
-                <img <img src="https://raw.githubusercontent.com/amarteyamarh/David_Amarh/main/SOYK2803.JPG" alt="Description of Image">/200" alt="David Amarh" class="profile-img">
+                <img <img src="SOYK2803.JPG" alt="Description of Image">
+                <h1>David Amarh</h1>
                 <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
             </div>
         </div>
