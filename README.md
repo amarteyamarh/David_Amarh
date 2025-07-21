@@ -1,2 +1,269 @@
-# David_Amarh
-My portfolio 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Amarh - Network Administrator</title>
+    <style>
+        /* Modern, professional styling */
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --accent: #e74c3c;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1, h2, h3 {
+            color: var(--dark);
+        }
+        
+        h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            color: var(--secondary);
+        }
+        
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1rem;
+        }
+        
+        .experience-item, .project {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .skill {
+            background: var(--secondary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .contact-links a {
+            color: white;
+            background: var(--secondary);
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-links a:hover {
+            background: var(--primary);
+        }
+        
+        .phone-icon {
+            margin-right: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--dark);
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-container">
+                <!-- Replace with your actual photo -->
+                <img src="C:\Users\USER\Desktop\IMG_4102.JPG"/200" alt="David Amarh" class="profile-img">
+                <h1>David Amarh</h1>
+                <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm David Amarh, a Cisco-certified Network Administrator with 4+ years of hands-on experience in:</p>
+            <ul>
+                <li>Designing and maintaining secure network infrastructures</li>
+                <li>Troubleshooting hardware/software issues</li>
+                <li>Optimizing data workflows</li>
+            </ul>
+            <p>I thrive in roles that require precision, problem-solving, and seamless tech operations.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <h3>Network Assistant - CUBS, Ghana</h3>
+                <ul>
+                    <li>Deployed and monitored LAN/WAN systems</li>
+                    <li>Provided technical support to 50+ staff members</li>
+                    <li>Maintained network security and performed regular updates</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Data Entry Clerk - Ghana Statistical Service</h3>
+                <ul>
+                    <li>Managed databases with 99.8% accuracy</li>
+                    <li>Streamlined data collection processes</li>
+                    <li>Prepared statistical reports for government use</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Virtual Assistant - Harmony Agency (Remote)</h3>
+                <ul>
+                    <li>Resolved client IT issues remotely</li>
+                    <li>Automated administrative tasks using scripting tools</li>
+                    <li>Managed schedules and communications for executives</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications & Skills</h2>
+            <h3>Certifications:</h3>
+            <ul>
+                <li>Cisco Certified Network Associate (CCNA)</li>
+                <!-- Add other certifications if applicable -->
+            </ul>
+            
+            <h3>Technical Skills:</h3>
+            <div class="skills">
+                <span class="skill">Network Configuration</span>
+                <span class="skill">Cisco IOS</span>
+                <span class="skill">VPN Setup</span>
+                <span class="skill">Firewall Management</span>
+                <span class="skill">Hardware Troubleshooting</span>
+                <span class="skill">Data Management</span>
+                <span class="skill">Excel</span>
+                <span class="skill">Remote Support</span>
+                <span class="skill">TeamViewer</span>
+                <span class="skill">Zoom Administration</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>Network Optimization Project</h3>
+                <p>Reduced network downtime by 30% at CUBS through:</p>
+                <ul>
+                    <li>Implementing proactive monitoring systems</li>
+                    <li>Redesigning network topology for better redundancy</li>
+                    <li>Creating documentation for troubleshooting procedures</li>
+                </ul>
+            </div>
+            
+            <div class="project">
+                <h3>Data Automation Script</h3>
+                <p>Cut manual data entry time by 50% by:</p>
+                <ul>
+                    <li>Developing Python scripts to automate repetitive tasks</li>
+                    <li>Creating Excel macros for data validation</li>
+                    <li>Training team members on new processes</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm available for network administration roles and IT consulting projects.</p>
+            <div class="contact-links">
+                <a href="mailto:david@yourdomain.com">Email Me</a>
+                <a href="https://www.linkedin.com/in/amarhdavid6081" target="_blank">LinkedIn</a>
+                <a href="tel:+233556536988">
+                    <svg class="phone-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    Call Me
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> David Amarh. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple script to display current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
