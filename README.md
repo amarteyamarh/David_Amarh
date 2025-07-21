@@ -143,8 +143,7 @@
     <header>
         <div class="container">
             <div class="profile-container">
-                <!-- Replace with your actual photo -->
-                <img <img src="SOYK2803.JPG" alt="Description of Image">
+                <img src="SOYK2803.JPG" alt="framed image">
                 <h1>David Amarh</h1>
                 <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
             </div>
