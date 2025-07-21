@@ -143,7 +143,7 @@
     <header>
         <div class="container">
             <div class="profile-container">
-                <img src="https://raw.githubusercontent.com/amarteyamarh/David_Amarh/main/SOYK2803.JPG" alt="Framed image" width="200" height="300">
+                <img src="https://raw.githubusercontent.com/amarteyamarh/David_Amarh/main/SOYK2803.JPG" alt="Framed image" width="300" height="400">
                 <h1>David Amarh</h1>
                 <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
             </div>
