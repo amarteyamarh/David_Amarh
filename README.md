@@ -216,8 +216,21 @@
             </div>
         </section>
 
+            
         <section id="projects">
             <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Unified Poultry Access (UPA) Platform</h3>
+                <p>A comprehensive platform designed to streamline poultry farming operations through technology:</p>
+                <ul>
+                    <li>Integrated farm management system with real-time monitoring</li>
+                    <li>Automated feed and water supply tracking</li>
+                    <li>Data analytics for poultry health and productivity</li>
+                    <li>Mobile-friendly interface for remote access</li>
+                </ul>
+                <a href="https://drive.google.com/file/d/1IXEvVzcQoM8LoEDF0rRf6sNKPNKiUGtH/view?usp=sharing" class="project-link" target="_blank">View UPA Platform Documentation →</a>
+            </div>
             
             <div class="project">
                 <h3>Network Optimization Project</h3>
