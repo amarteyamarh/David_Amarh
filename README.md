@@ -26,7 +26,6 @@
             background: var(--primary);
             color: white;
             padding: 2rem 0;
-            text-align: center;
         }
         
         .container {
@@ -58,8 +57,8 @@
         
         .profile-container {
             display: flex;
-            flex-direction: column;
             align-items: center;
+            gap: 3rem;
             margin-bottom: 1rem;
         }
         
@@ -68,9 +67,13 @@
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
+            object-position: center top; /* Ensures face is visible */
             border: 5px solid white;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin-bottom: 1rem;
+        }
+        
+        .intro-text {
+            flex: 1;
         }
         
         .experience-item, .project {
@@ -132,6 +135,11 @@
             .container {
                 width: 95%;
             }
+            .profile-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
             .contact-links {
                 flex-direction: column;
                 align-items: center;
@@ -143,9 +151,23 @@
     <header>
         <div class="container">
             <div class="profile-container">
-                <img src="https://raw.githubusercontent.com/amarteyamarh/David_Amarh/main/SOYK2803.JPG" alt="Framed image" width="300" height="400">
-                <h1>David Amarh</h1>
-                <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
+                <img src="https://raw.githubusercontent.com/amarteyamarh/David_Amarh/main/SOYK2803.JPG" alt="David Amarh" class="profile-img">
+                <div class="intro-text">
+                    <h1>David Amarh</h1>
+                    <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
+                    <p>Hi, I'm David Amarh—a dedicated Network Administrator, experienced Freelancer, 
+                    and a professional with a sharp eye for detail. I specialize in troubleshooting 
+                    complex systems, optimizing network performance, and delivering precise, 
+                    error-free solutions.</p>
+                    <p>What sets me apart is my ability to anticipate technical issues before they arise, 
+                    streamline operations for efficiency, and provide reliable freelance expertise 
+                    tailored to my clients' needs. My goal is to save you time, reduce downtime, and 
+                    enhance productivity by ensuring your network infrastructure runs smoothly and 
+                    securely.</p>
+                    <p>If you're looking for a proactive problem-solver who delivers results with precision, 
+                    let's connect! I'd love to discuss how I can bring seamless tech solutions to your 
+                    team or project. Let's make technology work for you—flawlessly.</p>
+                </div>
             </div>
         </div>
     </header>
