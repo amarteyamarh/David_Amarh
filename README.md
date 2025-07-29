@@ -311,8 +311,7 @@
                     <p>Get a complete overview of my professional experience and qualifications:</p>
                     <a href="MY%20CV.pdf" download="MY CV.pdf" class="cv-download-btn">
     Download CV (PDF)
-</a>
-                        Download CV (PDF)
+                       
                     </a>
                     <p class="cv-file-info">
                         File size: 250KB | Last updated: 7/28/2025
