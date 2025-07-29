@@ -309,7 +309,9 @@
                 <div class="cv-download">
                     <h4>Download My CV</h4>
                     <p>Get a complete overview of my professional experience and qualifications:</p>
-                    <a href="https://github.com/amarteyamarh/David_Amarh/blob/amarteyamarh-patch-1/MY%20CV.pdf" download="MY CV.pdf" class="cv-download-btn">
+                    <a href="MY%20CV.pdf" download="MY CV.pdf" class="cv-download-btn">
+    Download CV (PDF)
+</a>
                         Download CV (PDF)
                     </a>
                     <p class="cv-file-info">
