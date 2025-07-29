@@ -314,7 +314,7 @@
                        
                     </a>
                     <p class="cv-file-info">
-                        File size: 250KB | Last updated: 7/28/2025
+                         Last updated: 7/28/2025
                     </p>
                 </div>
             </div>
