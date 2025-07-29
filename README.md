@@ -166,6 +166,38 @@
             color: #666;
         }
         
+        /* Video Section Styles */
+        .video-section {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .video-description {
+            margin-top: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+        
         @media (max-width: 768px) {
             .container {
                 width: 95%;
@@ -305,18 +337,33 @@
                     <li>Training team members on new processes</li>
                 </ul>
                 
-                <!-- CV Download Section -->
                 <div class="cv-download">
                     <h4>Download My CV</h4>
                     <p>Get a complete overview of my professional experience and qualifications:</p>
                     <a href="MY%20CV.pdf" download="MY CV.pdf" class="cv-download-btn">
-    Download CV (PDF)
-                       
+                        Download CV (PDF)
                     </a>
                     <p class="cv-file-info">
                          Last updated: 7/28/2025
                     </p>
                 </div>
+            </div>
+        </section>
+
+        <!-- New Pitch Video Section -->
+        <section id="pitch-video" class="video-section">
+            <h2>My Professional Pitch</h2>
+            <div class="video-container">
+                <!-- Replace VIDEO_ID with your actual YouTube video ID -->
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <div class="video-description">
+                <p>In this 2-minute video, I introduce myself and explain what makes me an exceptional Network Administrator. 
+                You'll learn about my technical expertise, problem-solving approach, and how I can help optimize your 
+                organization's network infrastructure for maximum performance and security.</p>
             </div>
         </section>
 
