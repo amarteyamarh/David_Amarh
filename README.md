@@ -26,7 +26,6 @@
             background: var(--primary);
             color: white;
             padding: 2rem 0;
-            text-align: center;
         }
         
         .container {
@@ -58,8 +57,8 @@
         
         .profile-container {
             display: flex;
-            flex-direction: column;
             align-items: center;
+            gap: 3rem;
             margin-bottom: 1rem;
         }
         
@@ -68,9 +67,13 @@
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
+            object-position: center top;
             border: 5px solid white;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin-bottom: 1rem;
+        }
+        
+        .intro-text {
+            flex: 1;
         }
         
         .experience-item, .project {
@@ -128,9 +131,49 @@
             color: white;
         }
         
+        /* CV Download Styles */
+        .cv-download {
+            margin-top: 2rem;
+            background: #f5f5f5;
+            padding: 1.5rem;
+            border-radius: 5px;
+            border-left: 4px solid var(--secondary);
+        }
+        
+        .cv-download h4 {
+            margin-top: 0;
+            color: var(--dark);
+        }
+        
+        .cv-download-btn {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+        
+        .cv-download-btn:hover {
+            background: var(--primary);
+        }
+        
+        .cv-file-info {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            color: #666;
+        }
+        
         @media (max-width: 768px) {
             .container {
                 width: 95%;
+            }
+            .profile-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
             }
             .contact-links {
                 flex-direction: column;
@@ -143,9 +186,23 @@
     <header>
         <div class="container">
             <div class="profile-container">
-                <img src="https://raw.githubusercontent.com/amarteyamarh/David_Amarh/main/SOYK2803.JPG" alt="Framed image" width="300" height="400">
-                <h1>David Amarh</h1>
-                <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
+                <img src="https://raw.githubusercontent.com/amarteyamarh/David_Amarh/main/SOYK2803.JPG" alt="David Amarh" class="profile-img">
+                <div class="intro-text">
+                    <h1>David Amarh</h1>
+                    <p class="tagline">Certified Cisco Network Administrator | 4+ Years of IT Infrastructure Experience</p>
+                    <p>Hi, I'm David Amarh—a dedicated Network Administrator, experienced Freelancer, 
+                    and a professional with a sharp eye for detail. I specialize in troubleshooting 
+                    complex systems, optimizing network performance, and delivering precise, 
+                    error-free solutions.</p>
+                    <p>What sets me apart is my ability to anticipate technical issues before they arise, 
+                    streamline operations for efficiency, and provide reliable freelance expertise 
+                    tailored to my clients' needs. My goal is to save you time, reduce downtime, and 
+                    enhance productivity by ensuring your network infrastructure runs smoothly and 
+                    securely.</p>
+                    <p>If you're looking for a proactive problem-solver who delivers results with precision, 
+                    let's connect! I'd love to discuss how I can bring seamless tech solutions to your 
+                    team or project. Let's make technology work for you—flawlessly.</p>
+                </div>
             </div>
         </div>
     </header>
@@ -153,7 +210,6 @@
     <main class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hi! I'm David Amarh, a Cisco-certified Network Administrator with 4+ years of hands-on experience in:</p>
             <ul>
                 <li>Designing and maintaining secure network infrastructures</li>
                 <li>Troubleshooting hardware/software issues</li>
@@ -198,7 +254,6 @@
             <h3>Certifications:</h3>
             <ul>
                 <li>Cisco Certified Network Associate (CCNA)</li>
-                <!-- Add other certifications if applicable -->
             </ul>
             
             <h3>Technical Skills:</h3>
@@ -216,7 +271,6 @@
             </div>
         </section>
 
-            
         <section id="projects">
             <h2>Projects</h2>
 
@@ -250,6 +304,18 @@
                     <li>Creating Excel macros for data validation</li>
                     <li>Training team members on new processes</li>
                 </ul>
+                
+                <!-- CV Download Section -->
+                <div class="cv-download">
+                    <h4>Download My CV</h4>
+                    <p>Get a complete overview of my professional experience and qualifications:</p>
+                    <a href="path_to_your_cv.pdf" download="David_Amarh_CV.pdf" class="cv-download-btn">
+                        Download CV (PDF)
+                    </a>
+                    <p class="cv-file-info">
+                        File size: 250KB | Last updated: [Month Year]
+                    </p>
+                </div>
             </div>
         </section>
 
