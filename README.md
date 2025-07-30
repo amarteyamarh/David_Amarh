@@ -246,8 +246,10 @@
                 <li>Designing and maintaining secure network infrastructures</li>
                 <li>Troubleshooting hardware/software issues</li>
                 <li>Optimizing data workflows</li>
+                <li>Efficiently deploying AI for tasks in website, email automation </li>
+                <li>Data entry and management</li>
+                <li>Project management</li>
             </ul>
-            <p>I thrive in roles that require precision, problem-solving, and seamless tech operations.</p>
         </section>
 
         <section id="experience">
