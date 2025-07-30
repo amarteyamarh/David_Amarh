@@ -354,7 +354,7 @@
             <h2>My Professional Pitch</h2>
             <div class="video-container">
                 <!-- Replace VIDEO_ID with your actual YouTube video ID -->
-                <iframe src="https://youtu.be/C0StL3PVutk" 
+                <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/C0StL3PVutk?si=HOHinX2MUOAhsPvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
