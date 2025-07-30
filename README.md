@@ -344,7 +344,6 @@
                         Download CV (PDF)
                     </a>
                     <p class="cv-file-info">
-                         Last updated: 7/28/2025
                     </p>
                 </div>
             </div>
@@ -355,7 +354,7 @@
             <h2>My Professional Pitch</h2>
             <div class="video-container">
                 <!-- Replace VIDEO_ID with your actual YouTube video ID -->
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+                <iframe src="https://youtu.be/C0StL3PVutk" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
